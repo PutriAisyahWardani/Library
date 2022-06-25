@@ -5,18 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="style/StyleSheet.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="head">
-    
-        <asp:Image ID="Image1" runat="server" ImageUrl="~/img/dlibrary500.png" 
-            Width="500px" />
-    
-    </div><div id="main"><div id="menu">
+    <div id="main"><div id="menu">
         <table style="width:100%">
             <tr>
                 <td class="tblhead">
@@ -25,7 +20,7 @@
             </tr>
             <tr>
                 <td bgcolor="#d9d9d9" style="text-align: center">
-                    <asp:Label ID="lblname" runat="server" ForeColor="#000"></asp:Label>
+                    <asp:Label ID="lblname" runat="server" ForeColor="#783f04"></asp:Label>
                 </td>
             </tr>
             <tr>

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="style/StyleSheet.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         .style1
         {
@@ -15,11 +15,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="head">
-    
-        <asp:Image ID="Image1" runat="server" ImageUrl="~/img/dlibrary500.png" />
-    
-    </div>
     <div id="main"><div id="img">
         <table class="style1">
             <tr>

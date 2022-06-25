@@ -1,5 +1,5 @@
 body {
-    background: #b45f06;
+    background: #fff;
     font-family: Verdana;
     /*CCFFCC*/
 }
@@ -12,7 +12,7 @@ body {
     /* box-shadow:0px 0px 15px 0px green;*/
     margin: 0 auto;
     text-align: center;
-    background: #b45f06;
+    background: #fff;
 }
 
 #login
@@ -37,7 +37,7 @@ body {
 .tbl {
     width: 100%;
     border: solid 1px #ddd;
-    background: #b45f06;
+    background: #fff;
 }
 
 .tblhead {
@@ -52,7 +52,7 @@ body {
        .lbl
        {
            text-align:right;
-           color:#b45f06;
+           color:black;
            }
 
 .txt {
@@ -64,26 +64,25 @@ body {
                
                border:solid 1px #840000;
                }
-               
-               .btn:hover
-               {
-                   background:green;
-                   color:#fff;
-                   font-weight:bold;
-                    border:solid 2px #b45f06;
-                   height:30px;
-                     background:linear-gradient(#783f04, #b45f06);
-                   }
-                   .btn
-               {
-                   background:#ff6600;
-                   color:#fff;
-                   font-weight:bold;
-                   border:solid 2px #b45f06;height:30px; cursor:pointer;
-                    transition:background-color 1s ease;
-                  
-                  background:linear-gradient(#783f04, #b45f06);
-                   }
+
+.btn:hover {
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    border: solid 2px #000;
+    height: 30px;
+    background: linear-gradient(#783f04, #b45f06));
+}
+.btn {
+    background: #783f04;
+    color: #fff;
+    font-weight: bold;
+    border: solid 2px black;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    background: linear-gradient(#783f04, #b45f06));
+}
  
 #main
 {
