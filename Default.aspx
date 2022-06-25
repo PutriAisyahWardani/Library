@@ -21,7 +21,7 @@
                 <td>
                     &nbsp;</td>
                 <td>
-        <asp:Image ID="Image2" runat="server" ImageUrl="~/img/lib2.jpg" Height="314px" 
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/img/library.png" Height="314px" 
                         style="margin-left: 94px" Width="561px" />
                 </td>
             </tr>

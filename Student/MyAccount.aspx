@@ -21,15 +21,15 @@
     <table class="tbl">
         <tr>
             <td class="tblhead">
-                MY ACCOUNT</td>
+                AKUN SAYA</td>
         </tr>
         <tr>
             <td align="center">
-                <asp:Button ID="Button12" runat="server" CssClass="btn" Text="VIEW ACCOUNT" 
+                <asp:Button ID="Button12" runat="server" CssClass="btn" Text="lIHAT AKUN" 
                     onclick="Button12_Click" />
-&nbsp;<asp:Button ID="Button13" runat="server" CssClass="btn" Text="EDIT ACCOUNT" 
+&nbsp;<asp:Button ID="Button13" runat="server" CssClass="btn" Text="EDIT AKUN" 
                     onclick="Button13_Click" />
-            &nbsp;<asp:Button ID="Button14" runat="server" CssClass="btn" Text="CHANGE PASSWORD" 
+            &nbsp;<asp:Button ID="Button14" runat="server" CssClass="btn" Text="UBAH PASSWORD" 
                     onclick="Button14_Click" />
             </td>
         </tr>
@@ -44,32 +44,32 @@
                         <table align="center" class="style1" style="border: thin solid #9b9b9b">
                             <tr>
                                 <td class="tblhead" colspan="2">
-                                    MY Account Detail</td>
+                                    Detail Akun Saya</td>
                             </tr>
                             <tr>
                                 <td class="lbl">
-                                    Name :</td>
+                                    Nama :</td>
                                 <td align="left">
                                     <asp:Label ID="lblnam" runat="server"></asp:Label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="lbl">
-                                    Mobile :</td>
+                                    No. telp :</td>
                                 <td align="left">
                                     <asp:Label ID="lblmobile" runat="server"></asp:Label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="lbl">
-                                    Address :</td>
+                                    Alamat :</td>
                                 <td align="left">
                                     <asp:Label ID="lbladd" runat="server"></asp:Label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="lbl">
-                                    City :</td>
+                                    Kota :</td>
                                 <td align="left">
                                     <asp:Label ID="lblcity" runat="server"></asp:Label>
                                 </td>
@@ -107,32 +107,32 @@
                         <table align="center" class="style1" style="border: thin solid #9b9b9b">
                             <tr>
                                 <td class="tblhead" colspan="2">
-                                    Edit Account Detail</td>
+                                    Edit Detail Akun</td>
                             </tr>
                             <tr>
                                 <td class="style3">
-                                    Name :</td>
+                                    Nama :</td>
                                 <td align="left">
                                     <asp:TextBox ID="txtname" runat="server" CssClass="txt"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="style3">
-                                    Mobile :</td>
+                                    No. telp :</td>
                                 <td align="left">
                                     <asp:TextBox ID="txtname0" runat="server" CssClass="txt"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="style3">
-                                    Address :</td>
+                                    Alamat :</td>
                                 <td align="left">
                                     <asp:TextBox ID="txtname1" runat="server" CssClass="txt"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="style3">
-                                    City :</td>
+                                    Kota :</td>
                                 <td align="left">
                                     <asp:TextBox ID="txtname2" runat="server" CssClass="txt"></asp:TextBox>
                                 </td>
@@ -172,11 +172,11 @@
                         <table style="border: thin solid #9b9b9b">
                             <tr>
                                 <td class="tblhead" colspan="2">
-                                    Change Password</td>
+                                    Ubah Password</td>
                             </tr>
                             <tr>
                                 <td align="right">
-                                    Enter New Password :
+                                    Masukkan Password Baru :
                                 </td>
                                 <td align="left">
                                     <asp:TextBox ID="txtpass" runat="server" CssClass="txt" TextMode="Password"></asp:TextBox>
@@ -184,7 +184,7 @@
                             </tr>
                             <tr>
                                 <td align="right">
-                                    Confirm - Password :
+                                    Konfirmasi - Password :
                                 </td>
                                 <td align="left">
                                     <asp:TextBox ID="txtcpass" runat="server" CssClass="txt" TextMode="Password"></asp:TextBox>
@@ -195,7 +195,7 @@
                                     &nbsp;</td>
                                 <td align="left">
                                     <asp:Button ID="Button15" runat="server" CssClass="btn" 
-                                        Text="Change Password" onclick="Button15_Click" />
+                                        Text="Ubah Password" onclick="Button15_Click" />
                                 </td>
                             </tr>
                             <tr>

@@ -12,7 +12,7 @@
     <table class="tbl">
         <tr>
             <td class="tblhead">
-                MY BOOK REPORT</td>
+                REPORT BUKU SAYA</td>
         </tr>
         <tr>
             <td>
@@ -20,9 +20,9 @@
         </tr>
         <tr>
             <td align="center">
-                <asp:Button ID="btntaken" runat="server" CssClass="btn" Text="BORROW BOOK" 
+                <asp:Button ID="btntaken" runat="server" CssClass="btn" Text="PINJAM BUKU" 
                     onclick="btntaken_Click" />
-&nbsp;<asp:Button ID="btnreturn" runat="server" CssClass="btn" Text="RETURN BOOK" 
+&nbsp;<asp:Button ID="btnreturn" runat="server" CssClass="btn" Text="KEMBALIKAN BUKU" 
                     onclick="btnreturn_Click" />
             </td>
         </tr>
@@ -33,7 +33,7 @@
                         <table align="center" class="style1">
                             <tr>
                                 <td>
-                                    Borrow Book List -
+                                    Daftar Peminjaman Buku -
                                     <asp:Label ID="lblb" runat="server"></asp:Label>
                                 </td>
                             </tr>
@@ -45,9 +45,9 @@
                                         Width="482px">
                                         <AlternatingRowStyle BackColor="lightgrey" />
                                         <Columns>
-                                            <asp:BoundField DataField="bookname" HeaderText="Book Name" />
-                                            <asp:BoundField DataField="issuedate" HeaderText="Issue Date" />
-                                            <asp:BoundField DataField="days" HeaderText="Days" />
+                                            <asp:BoundField DataField="bookname" HeaderText="Judul Buku" />
+                                            <asp:BoundField DataField="issuedate" HeaderText="Tanggal Peminjaman" />
+                                            <asp:BoundField DataField="days" HeaderText="Hari" />
                                         </Columns>
                                         <FooterStyle BackColor="Tan" />
                                         <HeaderStyle BackColor="#C1C1C1" Font-Bold="True" />
@@ -71,7 +71,7 @@
                         <table align="center" class="style1">
                             <tr>
                                 <td>
-                                    Return Book List -
+                                    Daftar Pengembalian Buku -
                                     <asp:Label ID="lblr" runat="server"></asp:Label>
                                 </td>
                             </tr>
@@ -83,12 +83,12 @@
                                         Width="630px">
                                         <AlternatingRowStyle BackColor="#d5d5d5" />
                                         <Columns>
-                                            <asp:BoundField DataField="bookname" HeaderText="Book Name" />
-                                            <asp:BoundField DataField="issuedate" HeaderText="Issue Date" />
-                                            <asp:BoundField DataField="days" HeaderText="Days">
+                                            <asp:BoundField DataField="bookname" HeaderText="Judul Buku" />
+                                            <asp:BoundField DataField="issuedate" HeaderText="Tanggal Peminjaman" />
+                                            <asp:BoundField DataField="days" HeaderText="Hari">
                                             <ItemStyle Width="50px" />
                                             </asp:BoundField>
-                                            <asp:BoundField DataField="returndate" HeaderText="Return Date" />
+                                            <asp:BoundField DataField="returndate" HeaderText="Tanggal Pengembalian" />
                                         </Columns>
                                         <FooterStyle BackColor="Tan" />
                                         <HeaderStyle BackColor="#C1C1C1" Font-Bold="True" />

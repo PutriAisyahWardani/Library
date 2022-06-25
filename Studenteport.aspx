@@ -32,7 +32,7 @@
     <table class="tbl">
     <tr>
         <td class="tblhead">
-            LAPORAN SISWA</td>
+            DATA SISWA</td>
     </tr>
     <tr>
         <td>

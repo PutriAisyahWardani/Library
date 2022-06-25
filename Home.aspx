@@ -20,9 +20,9 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td style="text-align: center">
+        <!--<td style="text-align: center">
             <asp:Image ID="Image2" runat="server" ImageUrl="~/img/lib2.jpg" />
-        </td>
+        </td>-->
     </tr>
 </table>
 </asp:Content>

@@ -59,7 +59,7 @@
     <table class="tbl">
     <tr>
         <td class="tblhead">
-            VIEW BOOK</td>
+            BUKU DIPINJAM</td>
     </tr>
     <tr>
         <td>
@@ -70,14 +70,14 @@
             <table class="style1">
                 <tr>
                     <td class="style3">
-                        Select Branch :
+                        Pilih Cabang :
                             <asp:DropDownList ID="drpbranch" runat="server" CssClass="txt">
                             </asp:DropDownList>
                             <asp:Button ID="btnviewbranch" runat="server" CssClass="btn" Text="View" 
                             onclick="btnviewbranch_Click" />
                     </td>
                     <td class="style2">
-                        Select Publicaton :
+                        Pilih Publikasi :
                             <asp:DropDownList ID="drppublication" runat="server" CssClass="txt">
                             </asp:DropDownList>
                             <asp:Button ID="btnviewpublication" runat="server" CssClass="btn" 
@@ -143,14 +143,14 @@
                     <table class="tbl">
                         <tr>
                             <td class="tblhead">
-                                View Book Detail </td>
+                                Detail Buku </td>
                         </tr>
                         <tr>
                             <td>
                                 <table class="style4">
                                     <tr>
                                         <td class="style5" colspan="2">
-                                            Book Name :
+                                            Judul Buku :
                                             <asp:Label ID="lblbname" runat="server"></asp:Label>
                                         </td>
                                     </tr>
@@ -177,7 +177,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style1" style="font-size: medium">
-                                                        Publication :
+                                                        Publikasi :
                                                     </td>
                                                     <td>
                                                         <asp:Label ID="lblpub" runat="server"></asp:Label>
@@ -187,7 +187,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style1" style="font-size: medium">
-                                                        Branch :
+                                                        Cabang :
                                                     </td>
                                                     <td>
                                                         <asp:Label ID="lblbran" runat="server"></asp:Label>
@@ -197,7 +197,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style1" style="font-size: medium">
-                                                        Price :
+                                                        Harga :
                                                     </td>
                                                     <td>
                                                         <asp:Label ID="lblprice" runat="server"></asp:Label>
@@ -215,7 +215,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style1" style="font-size: medium">
-                                                        Total Qnt :
+                                                        Jumlah :
                                                     </td>
                                                     <td>
                                                         <asp:Label ID="lblqnt" runat="server"></asp:Label>
@@ -225,7 +225,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style1" style="font-size: medium">
-                                                        Available Qnt :
+                                                        Ketersediaan :
                                                     </td>
                                                     <td>
                                                         <asp:Label ID="lblaqnt" runat="server"></asp:Label>
@@ -235,7 +235,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style1" style="font-size: medium">
-                                                        Rent Qnt :
+                                                        Sewa :
                                                     </td>
                                                     <td>
                                                         <asp:Label ID="lblrqnt" runat="server"></asp:Label>

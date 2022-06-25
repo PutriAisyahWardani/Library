@@ -25,54 +25,54 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button11" runat="server" CssClass="btnmenu" Text="TAMBAH PUBLIKASI" 
+                    <asp:Button ID="Button11" runat="server" CssClass="btnmenu" Text="PUBLIKASI" 
                         PostBackUrl="~/Publication.aspx" CausesValidation="False" 
                         onclick="Button11_Click" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button1" runat="server" CssClass="btnmenu" Text="TAMBAH BUKU" 
+                    <asp:Button ID="Button1" runat="server" CssClass="btnmenu" Text="BUKU" 
                         PostBackUrl="~/Addbook.aspx" CausesValidation="False" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button2" runat="server" CssClass="btnmenu" Text="LAPORAN BUKU" 
+                    <asp:Button ID="Button2" runat="server" CssClass="btnmenu" Text="DATA BUKU" 
                         CausesValidation="False" PostBackUrl="~/bookreport.aspx" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button3" runat="server" CssClass="btnmenu" Text="TAMBAH CABANG" 
+                    <asp:Button ID="Button3" runat="server" CssClass="btnmenu" Text="CABANG" 
                         PostBackUrl="~/Addbranch.aspx" CausesValidation="False" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button4" runat="server" CssClass="btnmenu" Text="TAMBAH SISWA" 
+                    <asp:Button ID="Button4" runat="server" CssClass="btnmenu" Text="SISWA" 
                         PostBackUrl="~/AddStudent.aspx" CausesValidation="False" />
                 </td>
             </tr>
             <tr>
                 <td>
                     <asp:Button ID="Button5" runat="server" CssClass="btnmenu" 
-                        Text="LAPORAN SISWA" CausesValidation="False" 
+                        Text="DATA SISWA" CausesValidation="False" 
                         PostBackUrl="~/Studenteport.aspx" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button6" runat="server" CssClass="btnmenu" Text="EDISI BUKU" 
+                    <asp:Button ID="Button6" runat="server" CssClass="btnmenu" Text="PEMINJAMAN" 
                         CausesValidation="False" PostBackUrl="~/BookIssue.aspx" />
                 </td>
             </tr>
             <tr>
-                <td>
+                <!--<td>
                     <asp:Button ID="Button7" runat="server" CssClass="btnmenu" 
-                        Text="LAPORAN MASALAH" CausesValidation="False" 
+                        Text="LAPORAN Masalah" CausesValidation="False" 
                         PostBackUrl="~/Issuereport.aspx" />
-                </td>
+                </td>-->
             </tr>
             <tr>
                 <td>

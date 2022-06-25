@@ -53,7 +53,7 @@
     <table class="tbl">
     <tr>
         <td class="tblhead">
-            FORM MASALAH BUKU</td>
+            PEMINJAMAN</td>
     </tr>
     <tr>
         <td>
@@ -202,7 +202,7 @@
                         <tr>
                             <td style="border-top: 2px solid white; border-bottom: thin solid #FFF; font-weight: 700;" 
                                 class="style13">
-                                Pilih Siswa untuk Detail Masalah Buku&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                Pilih siswa yang akan meminjam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <asp:Label ID="lblissue" runat="server" ForeColor="Red"></asp:Label>
                                 <asp:RangeValidator ID="RangeValidator1" runat="server" 
                                     ControlToValidate="TextBox1" ErrorMessage="Days in Digit" ForeColor="Red" 
@@ -223,7 +223,7 @@
                                 <asp:DropDownList ID="drpstudent" runat="server" CssClass="txt" Width="120px">
                                 </asp:DropDownList>
                                 &nbsp;Days :<asp:TextBox ID="TextBox1" runat="server" CssClass="txt" Width="50px"></asp:TextBox>
-&nbsp;<asp:Button ID="btnissue" runat="server" CssClass="btn" onclick="btnissue_Click" Text="Book Issue" 
+&nbsp;<asp:Button ID="btnissue" runat="server" CssClass="btn" onclick="btnissue_Click" Text="Pinjamkan" 
                                     Width="100px" />
                             </td>
                         </tr>

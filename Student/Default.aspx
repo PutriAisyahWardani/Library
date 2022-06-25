@@ -6,7 +6,7 @@
     <table width="100%">
         <tr>
             <td class="tblhead" bgcolor="White">
-                WELCOME TO LIBRARY SYSTEM</td>
+                WELCOME TO LIBRARY</td>
         </tr>
         <tr>
             <td bgcolor="White">
@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td bgcolor="White" style="text-align: center">
-                <asp:Image ID="Image4" runat="server" ImageUrl="~/img/lib1.jpg" />
+                <asp:Image ID="Image4" runat="server" ImageUrl="~/img/library.png" />
             </td>
         </tr>
     </table>

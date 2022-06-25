@@ -59,7 +59,7 @@
     <table class="tbl">
     <tr>
         <td class="tblhead">
-            LIHAT BUKU</td>
+            BUKU</td>
     </tr>
     <tr>
         <td>

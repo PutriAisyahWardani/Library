@@ -13,7 +13,7 @@
     <table class="tbl">
     <tr>
         <td class="tblhead">
-            PENATY REPORT</td>
+            DENDA</td>
     </tr>
     <tr>
         <td style="text-align: center">
@@ -26,15 +26,15 @@
                 CellPadding="2" ForeColor="Black" GridLines="None" Width="668px">
                 <AlternatingRowStyle BackColor="lightgrey" />
                 <Columns>
-                    <asp:BoundField DataField="bookname" HeaderText="BookName" />
+                    <asp:BoundField DataField="bookname" HeaderText="Judul Buku" />
                     <asp:BoundField DataField="price" HeaderText="Price">
                     <ItemStyle Width="70px" />
                     </asp:BoundField>
-                    <asp:BoundField DataField="panalty" HeaderText="Panalty Amt">
+                    <asp:BoundField DataField="panalty" HeaderText="Total denda">
                     <ItemStyle Width="110px" />
                     </asp:BoundField>
                     <asp:BoundField DataField="detail" HeaderText="Detail" />
-                    <asp:BoundField DataField="entrydate" HeaderText="Date" />
+                    <asp:BoundField DataField="entrydate" HeaderText="Tanggal" />
                 </Columns>
                 <FooterStyle BackColor="lightgrey" />
                 <HeaderStyle BackColor="lightgrey" Font-Bold="True" />

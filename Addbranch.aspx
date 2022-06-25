@@ -20,7 +20,7 @@
     <table class="tbl">
     <tr>
         <td class="tblhead">
-            TAMBAH CABANG BARU</td>
+            CABANG</td>
     </tr>
     <tr>
         <td>
